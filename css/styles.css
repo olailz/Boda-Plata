@@ -264,6 +264,10 @@ body {
     .detail-card { padding: 1.5rem 1rem; }
     .triple-panel-container { height: 350px; }
     .couple-names { font-size: 3.5rem; }
+    .countdown-container { gap: 10px; margin: 1.25rem 0; padding: 0 0.75rem; }
+    .time-box { max-width: 84px; min-width: 60px; padding: 12px 10px; }
+    .time-box span { font-size: 1.5rem; }
+    .time-box small { font-size: 0.65rem; }
     .itinerary-item { padding-left: 70px; }
     .iti-icon { left: 30px; width: 45px; height: 45px; }
     .itinerary-list::before { left: 30px; }
