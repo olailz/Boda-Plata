@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 5. ENVÍO DE DATOS A GOOGLE SHEETS (CORRECCIÓN CLAVE)
     const rsvpForm = document.getElementById('rsvpForm');
     // Asegúrate de que esta URL sea la de tu "Última Implementación"
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZXJCbuEg8lJnkTf4dtS_Tfn9Z2lFjbXdV-dz_JHmF9P2Kwfc-W9rYlebkkHPp0pxw/exec'; 
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyGfScdu-2hbL7dzSXyRjwFjfsU1ONXDf6PbRkc6fedloIwzwUFg-v5NmbK-bd_eO6d/exec'; 
 
     if (rsvpForm) {
         rsvpForm.addEventListener('submit', (e) => {
