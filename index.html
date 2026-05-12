@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias & Lorena - Bodas de Plata</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="musicBtn" class="music-control hidden">
+        <i id="musicIcon" class="fa-solid fa-music"></i>
+    </div>
+
+    <div style="position: absolute; top: -1000px; left: -1000px;">
+        <div id="youtube-player"></div>
+    </div>
+
+    <section id="hero" class="hero">
+        <div class="hero-content-wrapper">
+            <div class="envelope-container">
+                <img src="img/sobre.png" alt="Sobre" class="envelope-img">
+            </div>
+            <button id="btnOpen" class="btn-primary">Abrir invitación</button>
+        </div>
+    </section>
+
+    <main id="main-content" class="hidden">
+        
+        <section class="container scroll-reveal">
+            <h2 class="section-subtitle">25 ANIVERSARIO</h2>
+            <div class="triple-panel-container">
+                <div class="panel panel-side"><img src="img/Lat.png" class="panel-img"></div>
+                <div class="panel panel-center"><img src="img/newf.png" class="panel-img"></div>
+                <div class="panel panel-side"><img src="img/portada.png" class="panel-img"></div>
+            </div>
+            <h1 class="couple-names">Elias & Lorena</h1>
+            <p class="quote">"Nuestro hogar no es un lugar… es el propósito de Dios cumpliéndose en nosotros."</p>
+            <div class="divider"></div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <div class="grid">
+                <div class="detail-card">
+                    <h3>CUÁNDO</h3>
+                    <p>Domingo, 16 de Agosto 2026</p>
+                    <p>14:00 Horas</p>
+                    <div class="calendar-add">
+                        <p style="font-size: 0.7rem; color: #888; margin-top: 10px;">AGENDAR EN:</p>
+                        <div class="calendar-links">
+                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Bodas+de+Plata+Elias+y+Lorena&dates=20260816T140000Z/20260816T220000Z" target="_blank">Google</a>
+                            <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20260816T140000Z%0ADTEND:20260816T220000Z%0ASUMMARY:Bodas de Plata Elias y Lorena%0ALOCATION:Santa Catarina Pinula%0AEND:VEVENT%0AEND:VCALENDAR">Apple</a>
+                            <a href="https://outlook.live.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=Bodas+de+Plata+Elias+y+Lorena&startdt=2026-08-16T14:00:00Z&enddt=2026-08-16T22:00:00Z" target="_blank">Outlook</a>
+                        </div>
+                    </div>
+                </div>
+               <div class="detail-card">
+    <h3>DÓNDE</h3>
+    <p>Salón Municipal</p>
+    <p>Santa Catarina Pinula</p>
+    <div class="location-btns">
+        <a href="https://maps.app.goo.gl/iBcxByE7rmFuRGwx5" target="_blank" class="btn-maps">
+            <i class="fa-solid fa-location-dot"></i> Google Maps
+        </a>
+        <a href="https://www.waze.com/en/live-map/directions?latlng=14.57237973251841%2C-90.49868702888489" target="_blank" class="btn-waze">
+            <i class="fa-brands fa-waze"></i> Waze
+        </a>
+    </div>
+</div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <h3 class="section-subtitle">FALTAN</h3>
+            <div id="countdown" class="countdown-container">
+                <div class="time-box"><span id="days">00</span><small>Días</small></div>
+                <div class="time-box"><span id="hours">00</span><small>Hrs</small></div>
+                <div class="time-box"><span id="minutes">00</span><small>Min</small></div>
+                <div class="time-box"><span id="seconds">00</span><small>Seg</small></div>
+            </div>
+            <div class="divider"></div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <h3 class="section-subtitle">NUESTRO ITINERARIO</h3>
+            <div class="itinerary-list">
+                <div class="itinerary-item">
+                    <span class="iti-icon"><i class="fa-solid fa-church"></i></span>
+                    <div class="iti-info"><h4>Ceremonia de Bendición</h4><p>14:00 PM</p></div>
+                </div>
+                <div class="itinerary-item">
+                    <span class="iti-icon"><i class="fa-solid fa-champagne-glasses"></i></span>
+                    <div class="iti-info"><h4>Recepción y Convivencia</h4><p>16:30 PM</p></div>
+                </div>
+                <div class="itinerary-item">
+                    <span class="iti-icon"><i class="fa-solid fa-dove"></i></span>
+                    <div class="iti-info"><h4>Acción de Gracias</h4><p>18:00 PM</p></div>
+                </div>
+                <div class="itinerary-item">
+                    <span class="iti-icon"><i class="fa-solid fa-utensils"></i></span>
+                    <div class="iti-info"><h4>Cena de Gala</h4><p>19:00 PM</p></div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <h3 class="section-subtitle">NUESTRA HISTORIA</h3>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="img/newf.png"><img src="img/Lat.png"><img src="img/portada.png"><img src="img/newf.png">
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <h3 class="section-subtitle">CÓDIGO DE VESTIMENTA</h3>
+            <div class="grid">
+                <div class="detail-card">
+                    <h4>HOMBRES</h4>
+                    <p>Traje Formal / Etiqueta</p>
+                    <a href="https://www.pinterest.com/pin/430586414388256048/" target="_blank" class="btn-maps">PINTEREST</a>
+                </div>
+                <div class="detail-card">
+                    <h4>MUJERES</h4>
+                    <p>Vestido de Noche / Largo</p>
+                    <a href="https://www.pinterest.com/pin/467811480064617650/" target="_blank" class="btn-maps">PINTEREST</a>
+                </div>
+            </div>
+            <div class="palette-container">
+                <p style="font-size: 0.8rem; color: #888; margin-bottom: 15px;">Paleta de colores sugerida:</p>
+                <div class="palette">
+                    <div class="color-circle" style="background: #D4AF37;"></div>
+                    <div class="color-circle" style="background: #C0C0C0;"></div>
+                    <div class="color-circle" style="background: #2F4F4F;"></div>
+                    <div class="color-circle" style="background: #E5E4E2;"></div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <h3 class="section-subtitle">MUESTRA DE CARIÑO</h3>
+            <div class="gift-card">
+                <div class="gift-icon-box"><i class="fa-regular fa-envelope-open"></i></div>
+                <h3>Lluvia de Sobres</h3>
+                <p class="gift-text">Su presencia es nuestro mayor regalo. Sin embargo, si desean obsequiarnos un detalle, contaremos con un cofre en la recepción.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="rules-box">
+                <h3 style="text-align: center; letter-spacing: 2px; margin-bottom: 25px;">¡A TOMAR EN CUENTA!</h3>
+                <ul class="rules-list">
+                    <li><span>1</span> Llegar 20 minutos antes.</li>
+                    <li><span>2</span> Seguir el código de vestimenta.</li>
+                    <li><span>3</span> Confirmar asistencia con anticipación.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container scroll-reveal">
+            <div class="rsvp-box">
+                <h3 class="rsvp-title">CONFIRMAR ASISTENCIA</h3>
+                <form id="rsvpForm" class="rsvp-form">
+                    <input type="text" name="name" placeholder="Tu nombre" required>
+                    <div class="radio-group">
+                        <label><input type="radio" name="attendance" value="si" required> Si asistiré</label>
+                        <label><input type="radio" name="attendance" value="no"> No asistiré</label>
+                    </div>
+                    <textarea name="message" placeholder="Mensaje para nosotros..." rows="4"></textarea>
+                    <button type="submit" class="btn-send">ENVIAR RESPUESTA</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer-premium">
+            <p class="footer-note">Nos gustaría que nos acompañes en este día tan especial</p>
+            <p class="footer-tagline">E & L — 2026 BODA DE PLATA</p>
+            <div class="footer-social-block">
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a> 
+                </div>
+                <p class="footer-copyright"> COPYRIGHT © 2026 | <b>OLAILZ</b></p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
